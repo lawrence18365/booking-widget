@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function() {
     const authStatusEl = document.getElementById('auth-status');
     const authLinkEl = document.getElementById('auth-link');
@@ -132,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function() {
             notes: notes
         };
 
-        fetch('/book-appointment', {
+        fetch('/booking-widget/index.html')
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
